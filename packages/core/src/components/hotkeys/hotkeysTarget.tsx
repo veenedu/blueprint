@@ -98,5 +98,6 @@ export function HotkeysTarget<T extends { prototype: IHotkeysTarget }>(construct
             return element;
         }
     };
+    return this
     // tslint:enable
 };
